@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Chama</string>
+    <string name="title_activity_firts_page">FirtsPageActivity</string>
+    <string name="title_activity_second_form">SecondFormActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string-array name="conditions">
+        <item>Sudden Diarrhoea</item>
+        <item>Cheat Problems</item>
+        <item>Fever(Body Hotness)</item>
+        <item>Sudden yellowness of eyes or skin</item>
+        <item>Severe weight loss</item>
+        <item>Skin Warm</item>
+        <item>Skin Problem</item>
+        <item>Eye problem</item>
+        <item>Sudden weakness</item>
+        <item>New Born Tetenus</item>
+        <item>Malnutrion</item>
+        <item>Maternal Death</item>
+    </string-array>
+
+
+</resources>
