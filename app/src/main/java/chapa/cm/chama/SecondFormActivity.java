@@ -29,10 +29,9 @@ public class SecondFormActivity extends AppCompatActivity {
 
         //set toolbar...
         setSupportActionBar(mToolbar);
+        getSupportActionBar().setTitle("");
+        getSupportActionBar().setHomeAsUpIndicator(R.mipmap.ic_launcher);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Reports");
-
         mViewPager = (ViewPager) findViewById(R.id.MyPostedJobsViewPager);
         //setup viewpager
         setUpViewPager();
