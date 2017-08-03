@@ -3,14 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="chapa.cm.chama">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        tools:replace="android:icon"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +29,8 @@
             android:name=".SecondFormActivity"
             android:label="@string/title_activity_second_form"
             android:theme="@style/AppTheme" />
-        <activity android:name=".SuccessPage"></activity>
+        <activity android:name=".SuccessPage" />
+        <activity android:name=".Logi"></activity>
     </application>
 
 </manifest>

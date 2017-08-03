@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(MainActivity.this, FirtsPageActivity.class));
+                startActivity(new Intent(MainActivity.this, Logi.class));
                 finish();
             }
-        }, 1000);
+        }, 2000);
 
     }
 }

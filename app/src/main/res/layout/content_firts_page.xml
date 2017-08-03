@@ -34,9 +34,9 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Fill following before continuing"
+                android:text="Fill the following."
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="italic" />
 
             <EditText
@@ -54,7 +54,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/et_first_week"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
@@ -68,7 +68,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/et_first_sub"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
@@ -82,7 +82,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/et_first_division"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -96,7 +96,7 @@
                 android:padding="10dp" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/et_first_district"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"

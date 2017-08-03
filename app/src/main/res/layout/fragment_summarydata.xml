@@ -72,7 +72,7 @@
                     android:layout_marginTop="10dp"
                     android:background="@drawable/input"
                     android:ems="10"
-                    android:hint="Househplds contacted"
+                    android:hint="Households contacted"
                     android:inputType="textPersonName"
                     android:padding="10dp"
                     android:textSize="16sp" />
@@ -130,7 +130,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Complete data for previous week ending sunday"
+                        android:text="Complete data for previous week ending Sunday"
                         android:textColor="?attr/colorPrimaryDark" />
 
                 </LinearLayout>
@@ -165,7 +165,7 @@
                     android:layout_marginTop="10dp"
                     android:background="@drawable/input"
                     android:ems="10"
-                    android:hint="Househplds contacted"
+                    android:hint="Households contacted"
                     android:inputType="textPersonName"
                     android:padding="10dp"
                     android:textSize="16sp" />
